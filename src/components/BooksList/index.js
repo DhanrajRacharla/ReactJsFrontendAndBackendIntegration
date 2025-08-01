@@ -79,7 +79,7 @@ const BooksList = () => {
         errorMsg: null,
       })
       // Making API call
-      const apiUrl = `....`
+      const apiUrl = `https://racharladhanraj0jrxvrjscpfx3ox.drops.nxtwave.tech/books/`
 
       const response = await fetch(apiUrl)
       const fetchedData = await response.json()
